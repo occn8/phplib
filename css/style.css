@@ -1,0 +1,15 @@
+body {
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    background-color: #faf4f5;
+}
+
+@font-face {
+  font-family: "GoogleSans";
+  src: url("../fonts/GoogleSans-Regular.ttf");
+}
+@font-face {
+  font-family: "stonehen";
+  src: url("../fonts/stonehen.ttf");
+}
