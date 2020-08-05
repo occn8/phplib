@@ -6,10 +6,10 @@ body {
 }
 
 @font-face {
-  font-family: "GoogleSans";
-  src: url("../fonts/GoogleSans-Regular.ttf");
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.ttf");
 }
 @font-face {
-  font-family: "stonehen";
-  src: url("../fonts/stonehen.ttf");
+  font-family: "Mont-Book";
+  src: url("../fonts/Mont-Book.otf");
 }
