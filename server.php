@@ -44,7 +44,7 @@
 		if (empty($password_1)) { array_push($errors, "Password is required"); }
 
 		if ($pass1 != $pass2) {
-			array_push($errors, "The two passwords do not match");
+			array_push($errors, "passwords do not match");
 		}
 
 		if (count($errors) == 0) {
@@ -79,10 +79,10 @@
 
 			if (mysqli_num_rows($results) == 1) {
 				$_SESSION['username'] = $username;
-				$_SESSION['success'] = "You are now logged in";
+				$_SESSION['success'] = "You are logged in";
 				header('location: index.php');
 			}else {
-				array_push($errors, "Wrong username/password combination");
+				array_push($errors, "Incorrect combination");
 			}
 		}
 	}
@@ -119,5 +119,40 @@
 	} else {
 	    echo "No books";
 	}
+
+
+		if (isset($_POST['update'])) {
+			$oldtitle = mysqli_real_escape_string($db, $_POST['oldtitle']);
+			$newtitle = mysqli_real_escape_string($db, $_POST['newtitle']);
+	
+			if (empty($oldtitle)) { array_push($errors, "Oldtitle required!"); }
+			
+			if (empty($newtitle)) { array_push($errors, "Newtitle required!"); }
+			
+	
+			if (count($errors) == 0) {
+				$query = "UPDATE tablebooks SET title='$newtitle' WHERE title='$oldtitle'";
+				mysqli_query($db, $query);
+	
+				header('location: myprofile.php');
+			}
+		
+		}
+
+
+		if (isset($_POST['delete'])) {
+			$title = mysqli_real_escape_string($db, $_POST['title']);
+	
+			if (empty($title)) { array_push($errors, "Title required"); }
+		
+	
+			if (count($errors) == 0) {
+				$query = "DELETE FROM tablebooks WHERE title='$title'";
+				mysqli_query($db, $query);
+	
+				header('location: books.php');
+			}
+		
+		}
 
 ?>
