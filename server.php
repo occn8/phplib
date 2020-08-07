@@ -26,7 +26,8 @@
 		id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 		title VARCHAR(50) NOT NULL,
 		author VARCHAR(100) NOT NULL,
-		edition INT(10) NOT NULL
+		edition INT(10) NOT NULL,
+		adddate DATE,
 		)";
 		mysqli_query($con, $tbbooks);
 
@@ -59,6 +60,7 @@
 
 	}
 
+
 	if (isset($_POST['login'])) {
 		$username = mysqli_real_escape_string($con, $_POST['username']);
 		$password = mysqli_real_escape_string($con, $_POST['password']);
@@ -82,6 +84,31 @@
 			}else {
 				array_push($errors, "Wrong username/password combination");
 			}
+		}
+	}
+
+	if (isset($_POST['add_book'])) {
+		$title = mysqli_real_escape_string($con, $_POST['title']);
+		$author = mysqli_real_escape_string($con, $_POST['author']);
+		$edition = mysqli_real_escape_string($con, $_POST['edition']);
+
+		if (empty($title)) {
+			array_push($errors, "Title required");
+		}
+		if (empty($author)) {
+			array_push($errors, "Author required");
+		}
+		if (empty($edition)) {
+			array_push($errors, "Edition required");
+		}
+
+		if (count($errors) == 0) {
+			$query = "INSERT INTO tablebooks (title, author, edition, adddate ) 
+					  VALUES('$title','$author', '$edition', NOW())";
+			mysqli_query($con, $query);
+
+			$_SESSION['added'] = "added successfuly";
+			header('location: books.php');
 		}
 	}
 
