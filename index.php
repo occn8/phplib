@@ -47,18 +47,11 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"><a class="nav-link" href="">Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="allbooks.php">Books</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
-                            data-toggle="dropdown">Actions</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="addbook.html">Add A Book</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="deletebook.html">Delete A Book</a>
-                        </div>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="addbook.php">Add-Book</a></li>
+                    <li class="nav-item"><a class="nav-link" href="deletebook.php">Delete-Book</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
 
                     <li class="nav-item">
