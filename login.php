@@ -21,11 +21,11 @@
   <form class="form-signin" method="post" action="login.php">
     <?php include('errors.php'); ?>
     <center>
-      <img class="mb-4" src="images/knowledge-1052010_1920.jpg" alt="" width="72" height="72">
+      <img class="mb-4" src="images/books-1.jpg" alt="" width="72" height="72">
     </center>
     <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
     <label for="inputEmail" class="sr-only">Email address</label>
-    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" name="username" required
+    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" name="email" required
       autofocus><br>
 
     <label for="inputPassword" class="sr-only">Password</label>
@@ -36,8 +36,10 @@
         <input type="checkbox" value="remember-me"> Remember me
       </label>
     </div>
-    <button class="btn btn-lg btn-warning btn-block yellow" type="submit">Sign in</button>
+    <button class="btn btn-lg btn-warning btn-block yellow" name="login" type="submit">Sign in</button><br>
+
     <center>
+    <small>Not yet a User?</small> <a href="signup.php" style="color:red;">Sign up</a>
       <p class="mt-5 mb-3 text-muted">&copy; 2020</p>
     </center>
   </form>

@@ -26,8 +26,8 @@
 		id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 		title VARCHAR(50) NOT NULL,
 		author VARCHAR(100) NOT NULL,
-		edition INT(10) NOT NULL,
-		adddate DATE,
+		edition INT(10),
+		adddate DATE
 		)";
 		mysqli_query($con, $tbbooks);
 
@@ -41,7 +41,7 @@
 
 		if (empty($username)) { array_push($errors, "Username is required"); }
 		if (empty($email)) { array_push($errors, "Email is required"); }
-		if (empty($password_1)) { array_push($errors, "Password is required"); }
+		if (empty($pass1)) { array_push($errors, "Password is required"); }
 
 		if ($pass1 != $pass2) {
 			array_push($errors, "passwords do not match");
@@ -62,11 +62,11 @@
 
 
 	if (isset($_POST['login'])) {
-		$username = mysqli_real_escape_string($con, $_POST['username']);
+		$email = mysqli_real_escape_string($con, $_POST['email']);
 		$password = mysqli_real_escape_string($con, $_POST['password']);
 
-		if (empty($username)) {
-			array_push($errors, "Username required");
+		if (empty($email)) {
+			array_push($errors, "Email required");
 		}
 		if (empty($password)) {
 			array_push($errors, "Password required");
@@ -74,7 +74,7 @@
 
 		if (count($errors) == 0) {
 			$password = md5($password);
-			$query = "SELECT * FROM tableusers WHERE username='$username' AND password='$password'";
+			$query = "SELECT * FROM tableusers WHERE email='$email' AND password='$password'";
 			$results = mysqli_query($con, $query);
 
 			if (mysqli_num_rows($results) == 1) {
@@ -113,7 +113,7 @@
 	}
 
 	$querrybooks = "SELECT * FROM tablebooks";
-	$result = $db->query($querrybooks);
+	$result = $con->query($querrybooks);
 	if ($result->num_rows > 0) {
 	  
 	} else {
@@ -132,7 +132,7 @@
 	
 			if (count($errors) == 0) {
 				$query = "UPDATE tablebooks SET title='$newtitle' WHERE title='$oldtitle'";
-				mysqli_query($db, $query);
+				mysqli_query($con, $query);
 	
 				header('location: allbooks.php');
 			}
@@ -148,7 +148,7 @@
 	
 			if (count($errors) == 0) {
 				$query = "DELETE FROM tablebooks WHERE title='$title'";
-				mysqli_query($db, $query);
+				mysqli_query($con, $query);
 	
 				header('location: allbooks.php');
 			}
