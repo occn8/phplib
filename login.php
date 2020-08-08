@@ -1,3 +1,5 @@
+<?php include('server.php') ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,20 +13,24 @@
   <link rel="stylesheet" type="text/css" href="css/animate.css">
   <link href="css/signin.css" rel="stylesheet">
   <link rel="icon" href="favicon.ico">
-  <title>Library</title>
+  <title>Log In</title>
 </head>
 
 <body>
 
-  <form class="form-signin">
+  <form class="form-signin" method="post" action="login.php">
+    <?php include('errors.php'); ?>
     <center>
       <img class="mb-4" src="images/knowledge-1052010_1920.jpg" alt="" width="72" height="72">
     </center>
     <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
     <label for="inputEmail" class="sr-only">Email address</label>
-    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus><br>
+    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" name="username" required
+      autofocus><br>
+
     <label for="inputPassword" class="sr-only">Password</label>
-    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+    <input type="password" id="inputPassword" class="form-control" placeholder="Password" name="password" required>
+
     <div class="checkbox mb-3">
       <label>
         <input type="checkbox" value="remember-me"> Remember me
@@ -36,8 +42,10 @@
     </center>
   </form>
 
-  <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.js"></script>
   <script src="js/popper.min.js"></script>
 </body>
 
