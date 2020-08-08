@@ -32,8 +32,6 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item active"><a class="nav-link" href="allbooks.php">Books</a></li>
-                    <!-- <li class="nav-item"><a class="nav-link" href="destinations.html">Destinations</a></li> -->
-
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
                             data-toggle="dropdown">Actions</a>
@@ -61,6 +59,25 @@
     <section style="background-color: white;">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi, odio beatae
             aspernatur natus recusandae quasi magni eum voluptatem nam!</p>
+            <?php include('server.php') ?>
+            <?php foreach($result as $book):?>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm" style="border-radius: 10px;">
+                    <img src="images/open-book2.jpg" class="d-block w-100" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"><b>Title:</b> <?php echo $book['title']; ?></p>
+                        <p class="card-text"><b>Author:</b> <?php echo $book['author']; ?></p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                            </div>
+                            <small class="text-muted">9 mins</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <?php endforeach; ?>
     </section>
 
 

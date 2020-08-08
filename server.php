@@ -108,7 +108,7 @@
 			mysqli_query($con, $query);
 
 			$_SESSION['added'] = "added successfuly";
-			header('location: books.php');
+			header('location: allbooks.php');
 		}
 	}
 
@@ -134,7 +134,7 @@
 				$query = "UPDATE tablebooks SET title='$newtitle' WHERE title='$oldtitle'";
 				mysqli_query($db, $query);
 	
-				header('location: myprofile.php');
+				header('location: allbooks.php');
 			}
 		
 		}
@@ -150,7 +150,7 @@
 				$query = "DELETE FROM tablebooks WHERE title='$title'";
 				mysqli_query($db, $query);
 	
-				header('location: books.php');
+				header('location: allbooks.php');
 			}
 		
 		}
