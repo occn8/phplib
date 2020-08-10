@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link href="css/style.css" rel="stylesheet">
     <link rel="icon" href="favicon.ico">
-    <title>Add Book</title>
+    <title>Book Details</title>
 </head>
 
 <body>
@@ -19,7 +19,7 @@
         <nav class="navbar navbar-expand-xl navbar-light" id="site-header">
             <div class="navbar-header">
                 <a href="" class="navbar-brand">
-                <img src="favicon.ico" height="50px" alt="">
+                    <img src="favicon.ico" height="50px" alt="">
                     <span class="first-letter">Kabooja Library</span>
                 </a>
             </div>
@@ -33,33 +33,49 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="allbooks.php">Books</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="#">Add-Book</a></li>
+                    <li class="nav-item"><a class="nav-link" href="addbook.php">Add-Book</a></li>
                     <li class="nav-item"><a class="nav-link" href="deletebook.php">Delete-Book</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
 
                 </ul>
             </div>
         </nav>
     </header>
-<main>
-    <section class="padd">
-    <p>Kabojja International School is a private co-educational school offering a British 
-                            curriculum IGCSE (International General Certificate of Secondary Education) and GCE (General Certificate of Education). 
-                            It is both a Day and Barding School.</p>
 
-                            
-    </section>
-</main>
+    <main>
+        <section class="padd">
+            <h2>Background:</h2>
+            <p>Kabojja International School is a private co-educational school offering a British
+                curriculum IGCSE (International General Certificate of Secondary Education) and GCE (General Certificate
+                of Education).
+                It is both a Day and Barding School.</p>
+
+            <p>It draws students from East Africa and other neighboring countries in the great lakes Region.
+                It also draws learners from the great Diaspora. The learners enjoy a quiet environment, an international
+                reputation, and excellent studying facilities with professionalism in all programmes.
+                The resident learners are guaranted accommodation in a homely environment with all home amenities.</p>
+
+            <h2>Location:</h2>
+            <p>Kabojja International School is twenty minutes drive from the city center of the Ugandan capital -
+                Kampala and an hour’s drive from
+                Entebbe International Airport.
+                The school located in Buziga – Mulalamula Road in a quiet homely environment that makes every visitor
+                wish to be a learner at this campus.
+                In this splendid location, our learners experience a safe, comfortable and empowering learning
+                environment.</p>
+        </section>
+    </main>
 
     <footer class="site-footer">
         <div class="container"><br><br>
             <div class="row">
                 <div class="col-lg-4">
                     <h3>About Us</h3>
-                    <p>Kabojja International School is a private co-educational school offering a British 
-                            curriculum IGCSE (International General Certificate of Secondary Education) and GCE (General Certificate of Education). 
-                            It is both a Day and Barding School!</p>
+                    <p>Kabojja International School is a private co-educational school offering a British
+                        curriculum IGCSE (International General Certificate of Secondary Education) and GCE (General
+                        Certificate of Education).
+                        It is both a Day and Barding School!</p>
                 </div>
                 <div class="col-lg-3 mx-auto">
                     <h3>Navigation</h3>
@@ -74,8 +90,8 @@
                 </div>
                 <div class="col-lg-4">
                     <h3>Subscribe</h3>
-                    <p>Kabojja International School is a private co-educational school offering a British 
-                            curriculum IGCSE.It is both a Day and Barding School!</p>
+                    <p>Kabojja International School is a private co-educational school offering a British
+                        curriculum IGCSE.It is both a Day and Barding School!</p>
                     <form action="#" class="form-subscribe">
                         <input type="email" class="form-control mb-3" placeholder="Enter Email">
                         <input type="submit" class="btn btn-warning yellow" value="Subscribe">

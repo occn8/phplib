@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link href="css/style.css" rel="stylesheet">
     <link rel="icon" href="favicon.ico">
-    <title>Add Book</title>
+    <title>About</title>
 </head>
 
 <body>
@@ -33,23 +33,34 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="allbooks.php">Books</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="#">Add-Book</a></li>
+                    <li class="nav-item"><a class="nav-link" href="addbook.php">Add-Book</a></li>
                     <li class="nav-item"><a class="nav-link" href="deletebook.php">Delete-Book</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#">Contact</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
 
                 </ul>
             </div>
         </nav>
     </header>
-<main>
-    <section class="padd">
-    <p>Kabojja International School is a private co-educational school offering a British 
+
+    <main>
+<section class="padd">
+<h2>Contacts:</h2>
+<p>Kabojja International School is a private co-educational school offering a British 
                             curriculum IGCSE (International General Certificate of Secondary Education) and GCE (General Certificate of Education). 
                             It is both a Day and Barding School.</p>
 
-                            
-    </section>
+<p>It draws students from East Africa and other neighboring countries in the great lakes Region.
+     It also draws learners from the great Diaspora. The learners enjoy a quiet environment, an international 
+     reputation, and excellent studying facilities with professionalism in all programmes.
+The resident learners are guaranted accommodation in a homely environment with all home amenities.</p>
+
+<h2>Location:</h2>
+<p>Kabojja International School is twenty minutes drive from the city center of the Ugandan capital - Kampala and an hour’s drive from 
+    Entebbe International Airport.
+The school located in Buziga – Mulalamula Road in a quiet homely environment that makes every visitor wish to be a learner at this campus.
+In this splendid location, our learners experience a safe, comfortable and empowering learning environment.</p>
+</section>
 </main>
 
     <footer class="site-footer">
