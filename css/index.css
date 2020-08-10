@@ -4,12 +4,15 @@ body {
   overflow-x: hidden;
   background-color: #ffffff;
 }
+main{
+  background-color: #dbc9c9 !important;
+}
 
 .jumbotron {
   padding-top: 3rem;
   padding-bottom: 3rem;
   margin-bottom: 0;
-  background-color: #fff;
+  background-color: #dbc9c9;
 }
 @media (min-width: 768px) {
   .jumbotron {
