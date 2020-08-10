@@ -2,9 +2,14 @@ body {
     line-height: 1.5;
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
-    background-color: #faf4f5;
+    background-color: #fff;
 }
-
+main{
+  background-color: #dbc9c9 !important;
+}
+.list-unstyled>li>a{
+  color: blue;
+}
 @font-face {
   font-family: "Poppins";
   src: url("../fonts/Poppins-Regular.ttf");
@@ -14,3 +19,6 @@ body {
   src: url("../fonts/Mont-Book.otf");
 }
 
+.yellow{
+  background-color: yellow ;
+}

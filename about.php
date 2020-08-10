@@ -19,6 +19,7 @@
         <nav class="navbar navbar-expand-xl navbar-light" id="site-header">
             <div class="navbar-header">
                 <a href="" class="navbar-brand">
+                <img src="favicon.ico" height="50px" alt="">
                     <span class="first-letter">Kabooja Library</span>
                 </a>
             </div>
@@ -42,7 +43,8 @@
         </nav>
     </header>
 
-<section style="background-color: white;padding:50px;">
+    <main>
+<section style="padding:50px;">
 <h2>Background:</h2>
 <p>Kabojja International School is a private co-educational school offering a British 
                             curriculum IGCSE (International General Certificate of Secondary Education) and GCE (General Certificate of Education). 
@@ -59,14 +61,16 @@ The resident learners are guaranted accommodation in a homely environment with a
 The school located in Buziga – Mulalamula Road in a quiet homely environment that makes every visitor wish to be a learner at this campus.
 In this splendid location, our learners experience a safe, comfortable and empowering learning environment.</p>
 </section>
+</main>
 
     <footer class="site-footer">
-        <div class="container">
+        <div class="container"><br><br>
             <div class="row">
                 <div class="col-lg-4">
                     <h3>About Us</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi, odio beatae
-                        aspernatur natus recusandae quasi magni eum voluptatem nam!</p>
+                    <p>Kabojja International School is a private co-educational school offering a British 
+                            curriculum IGCSE (International General Certificate of Secondary Education) and GCE (General Certificate of Education). 
+                            It is both a Day and Barding School!</p>
                 </div>
                 <div class="col-lg-3 mx-auto">
                     <h3>Navigation</h3>
@@ -81,10 +85,11 @@ In this splendid location, our learners experience a safe, comfortable and empow
                 </div>
                 <div class="col-lg-4">
                     <h3>Subscribe</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, quibusdam!</p>
+                    <p>Kabojja International School is a private co-educational school offering a British 
+                            curriculum IGCSE.It is both a Day and Barding School!</p>
                     <form action="#" class="form-subscribe">
                         <input type="email" class="form-control mb-3" placeholder="Enter Email">
-                        <input type="submit" class="btn btn-primary" value="Subscribe">
+                        <input type="submit" class="btn btn-warning yellow" value="Subscribe">
                     </form>
                 </div>
             </div>
