@@ -36,7 +36,7 @@
                     <li class="nav-item active"><a class="nav-link" href="#">Books</a></li>
                     <li class="nav-item"><a class="nav-link" href="addbook.php">Add-Book</a></li>
                     <li class="nav-item"><a class="nav-link" href="deletebook.php">Delete-Book</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
 
                     <li class="nav-item">

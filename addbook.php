@@ -35,7 +35,7 @@
                     <li class="nav-item"><a class="nav-link" href="allbooks.php">Books</a></li>
                     <li class="nav-item active"><a class="nav-link" href="#">Add-Book</a></li>
                     <li class="nav-item"><a class="nav-link" href="deletebook.php">Delete-Book</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
 
                 </ul>
@@ -48,7 +48,7 @@
                             curriculum IGCSE (International General Certificate of Secondary Education) and GCE (General Certificate of Education). 
                             It is both a Day and Barding School.</p>
 
-                            
+
     </section>
 </main>
 

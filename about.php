@@ -35,7 +35,7 @@
                     <li class="nav-item"><a class="nav-link" href="allbooks.php">Books</a></li>
                     <li class="nav-item"><a class="nav-link" href="addbook.php">Add-Book</a></li>
                     <li class="nav-item"><a class="nav-link" href="deletebook.php">Delete-Book</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
                     <li class="nav-item active"><a class="nav-link" href="#">About</a></li>
 
                 </ul>
@@ -54,7 +54,7 @@
      It also draws learners from the great Diaspora. The learners enjoy a quiet environment, an international 
      reputation, and excellent studying facilities with professionalism in all programmes.
 The resident learners are guaranted accommodation in a homely environment with all home amenities.</p>
-
+<br>
 <h2>Location:</h2>
 <p>Kabojja International School is twenty minutes drive from the city center of the Ugandan capital - Kampala and an hour’s drive from 
     Entebbe International Airport.

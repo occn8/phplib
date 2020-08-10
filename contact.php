@@ -45,17 +45,101 @@
 
     <main>
 <section class="padd">
+    <center>
 <h2>Contacts:</h2>
-<p>Kabojja International School is a private co-educational school offering a British 
-                            curriculum IGCSE (International General Certificate of Secondary Education) and GCE (General Certificate of Education). 
-                            It is both a Day and Barding School.</p>
+</center>
+<div class="row">
+    <div class="col-md-4">
+    <h5 class="text-uppercase">CONTACT ADDRESS</h5>
+     <ul class="list-unstyled">
+         <li>
+             <a href="#!">Plot 56/57, Lugard Avenue</a>
+         </li>
+         <li>
+             <a href="#!">P.O. Box 22587 Kampala</a>
+         </li>
+         <li>
+             <a href="#!">Entebbe UWEC Zoo</a>
+         </li>
+         <li>
+             <a href="#!">Entebbe, Wakiso District – Uganda</a>
+         </li>
+         <li>
+             <a href="#!">Phone: +256 77 520 7450</a>
+         </li>
+         <li>
+             <a href="#!">info@wilddiscoveriessafaris.com</a>
+         </li>
+         <li>
+             <a href="#!">www.wilddiscoveriessafaris.com</a>
+         </li>
+         <li>
+             <a href="#!">Open: Monday To Sunday</a>
+         </li>
+     </ul>
+    </div>
+    <div class="col-md-4">
+    <h5 class="text-uppercase">Other ADDRESS</h5>
+     <ul class="list-unstyled">
+         <li>
+             <a href="#!">Plot 56/57, Lugard Avenue</a>
+         </li>
+         <li>
+             <a href="#!">P.O. Box 22587 Kampala</a>
+         </li>
+         <li>
+             <a href="#!">Entebbe UWEC Zoo</a>
+         </li>
+         <li>
+             <a href="#!">Entebbe, Wakiso District – Uganda</a>
+         </li>
+         <li>
+             <a href="#!">Phone: +256 77 520 7450</a>
+         </li>
+         <li>
+             <a href="#!">info@wilddiscoveriessafaris.com</a>
+         </li>
+         <li>
+             <a href="#!">www.wilddiscoveriessafaris.com</a>
+         </li>
+         <li>
+             <a href="#!">Open: Monday To Sunday</a>
+         </li>
+     </ul>
+    </div>
+    <div class="col-md-4">
+    <h5 class="text-uppercase">Other ADDRESS</h5>
+     <ul class="list-unstyled">
+         <li>
+             <a href="#!">Plot 56/57, Lugard Avenue</a>
+         </li>
+         <li>
+             <a href="#!">P.O. Box 22587 Kampala</a>
+         </li>
+         <li>
+             <a href="#!">Entebbe UWEC Zoo</a>
+         </li>
+         <li>
+             <a href="#!">Entebbe, Wakiso District – Uganda</a>
+         </li>
+         <li>
+             <a href="#!">Phone: +256 77 520 7450</a>
+         </li>
+         <li>
+             <a href="#!">info@wilddiscoveriessafaris.com</a>
+         </li>
+         <li>
+             <a href="#!">www.wilddiscoveriessafaris.com</a>
+         </li>
+         <li>
+             <a href="#!">Open: Monday To Sunday</a>
+         </li>
+     </ul>
+    </div>
 
-<p>It draws students from East Africa and other neighboring countries in the great lakes Region.
-     It also draws learners from the great Diaspora. The learners enjoy a quiet environment, an international 
-     reputation, and excellent studying facilities with professionalism in all programmes.
-The resident learners are guaranted accommodation in a homely environment with all home amenities.</p>
+</div><br><br>
 
-<h2>Location:</h2>
+<center><h2>Location:</h2></center>
 <p>Kabojja International School is twenty minutes drive from the city center of the Ugandan capital - Kampala and an hour’s drive from 
     Entebbe International Airport.
 The school located in Buziga – Mulalamula Road in a quiet homely environment that makes every visitor wish to be a learner at this campus.
