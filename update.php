@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link href="css/style.css" rel="stylesheet">
     <link rel="icon" href="favicon.ico">
-    <title>All Books</title>
+    <title>Update Book</title>
 </head>
 
 <body>
@@ -33,56 +32,39 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="#">Books</a></li>
+                    <li class="nav-item"><a class="nav-link" href="allbooks.php">Books</a></li>
                     <li class="nav-item"><a class="nav-link" href="addbook.php">Add-Book</a></li>
                     <li class="nav-item"><a class="nav-link" href="deletebook.php">Delete-Book</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
 
-                    <li class="nav-item">
-                        <?php  if (isset($_SESSION['username'])) : ?>
-                        <a class="nav-link" href="index.php?logout='1'"
-                            style="color: rgb(255, 0, 0) !important;">Logout</a>
-                        <?php endif ?>
-                    </li>
-
                 </ul>
             </div>
         </nav>
     </header>
-<main>
-    <section class="padd" >
+    
+ <main>
+    <section class="padd">
     <p>Kabojja International School is a private co-educational school offering a British 
                             curriculum IGCSE (International General Certificate of Secondary Education) and GCE (General Certificate of Education). 
-                            It is both a Day and Barding School.</p>
-            <?php include('server.php') ?>
-            <div class="row">
-            <?php foreach($result as $book):?>
-            
-            <div class="col-md-3">
-                <div class="card mb-4 shadow-sm" style="border-radius: 10px;">
-                    <img src="images/open-book2.jpg" class="d-block w-100" alt="...">
-                    <div class="card-body">
-                        <p class="card-text"><b>Title:</b> <?php echo $book['title']; ?></p>
-                        <p class="card-text"><b>Author:</b> <?php echo $book['author']; ?></p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                            <a href="details.php"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
-                            <a href="update.php"> <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button></a>
-                            </div>
-                            <small class="text-muted">Edition:<?php echo $book['edition']; ?></small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <?php endforeach; ?></div>
+                            It is both a Day and Barding School.</p><br>
+<center>
+                <div class="">
+                <h1><b>Edit Book Author</b></h1>
+                <form action="update.php" method="post">
+                    <label for="author" class="white">Current Author</label>
+                    <input type="text" name="author" id="author" class="mb-3"><br>
+                    <label for="new" class="white">New Author</label>
+                    <input type="text" name="new" id="new" class="mb-3"><br>
+                    <button type="submit" class="btn btn-warning col-md-4 yellow" name="editbook">Update Author</button>
+                </form><br>
+            </div><br>
+            </center>
     </section>
-            </main>
+</main>
 
     <footer class="site-footer">
-        <div class="container">
-        <br><br>
+        <div class="container"><br><br>
             <div class="row">
                 <div class="col-lg-4">
                     <h3>About Us</h3>

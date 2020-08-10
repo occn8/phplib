@@ -72,7 +72,7 @@
         <section class="jumbotron text-center"
             style="background-image: url(images/books-2.jpg);background-repeat: no-repeat;background-size: cover; height: 80vh;">
             <div class="container" style="background-color: beige;padding: 10px;">
-                <h1>Kabooja Boys School</h1>
+                <h1>Kabooja Boys School Library</h1>
                 
             </div>
         </section>

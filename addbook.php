@@ -47,7 +47,41 @@
     <p>Kabojja International School is a private co-educational school offering a British 
                             curriculum IGCSE (International General Certificate of Secondary Education) and GCE (General Certificate of Education). 
                             It is both a Day and Barding School.</p>
+            <form method="post" action="signup.php" class="form-signin bg-white">
+        <center>
+            <h3 class="mb-5" style="color:red;">Add Book</h3>
+        </center>
+            <?php include('errors.php'); ?>
+            <div class="">
+                
+                <div class="form-group">
+                        <label for="title" class="text-black">Title <span class="text-danger"></span></label>
+                        <input type="text" class="form-control" id="title" name="title" placeholder="Username" value=""required>
+                        <div class="invalid-feedback">
+                </div>
 
+                <div class="form-group ">
+                        <label for="author" class="text-black">Author <span class="text-danger"></span></label>
+                        <input type="text" class="form-control" id="author" name="author" placeholder="Author" value="" required>
+                </div>
+
+                <div class="form-group">
+                        <label for="edition" class="text-black">Edition <span class="text-danger"></span></label>
+                        <input type="password" class="form-control" id="edition" name="edition" placeholder="text" value="" required>
+                </div>
+
+                <center>
+                    <div class="form-group row">
+                        <div class="col-lg-12">
+                            <input type="submit" class="btn btn-warning btn-block yellow" name="addbook" value="Add Book">
+                        </div>
+                    </div>
+                </center>
+
+                
+
+            </div>
+    </form>  
 
     </section>
 </main>

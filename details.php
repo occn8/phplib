@@ -45,7 +45,6 @@
 
     <main>
         <section class="padd">
-            <h2>Background:</h2>
             <p>Kabojja International School is a private co-educational school offering a British
                 curriculum IGCSE (International General Certificate of Secondary Education) and GCE (General Certificate
                 of Education).
@@ -56,7 +55,60 @@
                 reputation, and excellent studying facilities with professionalism in all programmes.
                 The resident learners are guaranted accommodation in a homely environment with all home amenities.</p>
 
-            <h2>Location:</h2>
+            <p>Kabojja International School is twenty minutes drive from the city center of the Ugandan capital -
+                Kampala and an hour’s drive from
+                Entebbe International Airport.
+                The school located in Buziga – Mulalamula Road in a quiet homely environment that makes every visitor
+                wish to be a learner at this campus.
+                In this splendid location, our learners experience a safe, comfortable and empowering learning
+                environment.</p>
+                <p>Kabojja International School is a private co-educational school offering a British
+                curriculum IGCSE (International General Certificate of Secondary Education) and GCE (General Certificate
+                of Education).
+                It is both a Day and Barding School.</p>
+
+            <p>It draws students from East Africa and other neighboring countries in the great lakes Region.
+                It also draws learners from the great Diaspora. The learners enjoy a quiet environment, an international
+                reputation, and excellent studying facilities with professionalism in all programmes.
+                The resident learners are guaranted accommodation in a homely environment with all home amenities.</p>
+
+            <p>Kabojja International School is twenty minutes drive from the city center of the Ugandan capital -
+                Kampala and an hour’s drive from
+                Entebbe International Airport.
+                The school located in Buziga – Mulalamula Road in a quiet homely environment that makes every visitor
+                wish to be a learner at this campus.
+                In this splendid location, our learners experience a safe, comfortable and empowering learning
+                environment.</p>
+                <p>Kabojja International School is a private co-educational school offering a British
+                curriculum IGCSE (International General Certificate of Secondary Education) and GCE (General Certificate
+                of Education).
+                It is both a Day and Barding School.It draws students from East Africa and other neighboring countries in the great lakes Region.
+                It also draws learners from the great Diaspora. The learners enjoy a quiet environment, an international
+                reputation, and excellent studying facilities with professionalism in all programmes.
+                The resident learners are guaranted accommodation in a homely environment with all home amenities.</p>
+
+            <p>Kabojja International School is twenty minutes drive from the city center of the Ugandan capital -
+                Kampala and an hour’s drive from
+                Entebbe International Airport.
+                The school located in Buziga – Mulalamula Road in a quiet homely environment that makes every visitor
+                wish to be a learner at this campus.
+                In this splendid location, our learners experience a safe, comfortable and empowering learning
+                environment.</p>
+                <p>Kabojja International School is twenty minutes drive from the city center of the Ugandan capital -
+                Kampala and an hour’s drive from
+                Entebbe International Airport.
+                The school located in Buziga – Mulalamula Road in a quiet homely environment that makes every visitor
+                wish to be a learner at this campus.
+                In this splendid location, our learners experience a safe, comfortable and empowering learning
+                environment.</p>
+                <p>Kabojja International School is a private co-educational school offering a British
+                curriculum IGCSE (International General Certificate of Secondary Education) and GCE (General Certificate
+                of Education).
+                It is both a Day and Barding School.It draws students from East Africa and other neighboring countries in the great lakes Region.
+                It also draws learners from the great Diaspora. The learners enjoy a quiet environment, an international
+                reputation, and excellent studying facilities with professionalism in all programmes.
+                The resident learners are guaranted accommodation in a homely environment with all home amenities.</p>
+
             <p>Kabojja International School is twenty minutes drive from the city center of the Ugandan capital -
                 Kampala and an hour’s drive from
                 Entebbe International Airport.
