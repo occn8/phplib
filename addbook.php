@@ -1,3 +1,5 @@
+<?php include('server.php') ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -47,16 +49,17 @@
     <p>Kabojja International School is a private co-educational school offering a British 
                             curriculum IGCSE (International General Certificate of Secondary Education) and GCE (General Certificate of Education). 
                             It is both a Day and Barding School.</p>
-            <form method="post" action="signup.php" class="form-signin bg-white">
+
+        <form method="post" action="addbook.php" class="form-signin bg-white padd">
         <center>
-            <h3 class="mb-5" style="color:red;">Add Book</h3>
+        <h1><b>Add Book</b></h1>
         </center>
             <?php include('errors.php'); ?>
             <div class="">
                 
                 <div class="form-group">
                         <label for="title" class="text-black">Title <span class="text-danger"></span></label>
-                        <input type="text" class="form-control" id="title" name="title" placeholder="Username" value=""required>
+                        <input type="text" class="form-control" id="title" name="title" placeholder="Title" value=""required>
                         <div class="invalid-feedback">
                 </div>
 
@@ -67,15 +70,13 @@
 
                 <div class="form-group">
                         <label for="edition" class="text-black">Edition <span class="text-danger"></span></label>
-                        <input type="password" class="form-control" id="edition" name="edition" placeholder="text" value="" required>
+                        <input type="text" class="form-control" id="edition" name="edition" placeholder="Edition" value="" required>
                 </div>
 
                 <center>
-                    <div class="form-group row">
-                        <div class="col-lg-12">
+                        <div class="col-lg-4">
                             <input type="submit" class="btn btn-warning btn-block yellow" name="addbook" value="Add Book">
                         </div>
-                    </div>
                 </center>
 
                 

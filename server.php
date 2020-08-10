@@ -87,7 +87,7 @@
 		}
 	}
 
-	if (isset($_POST['add_book'])) {
+	if (isset($_POST['addbook'])) {
 		$title = mysqli_real_escape_string($con, $_POST['title']);
 		$author = mysqli_real_escape_string($con, $_POST['author']);
 		$edition = mysqli_real_escape_string($con, $_POST['edition']);
@@ -121,17 +121,20 @@
 	}
 
 
-		if (isset($_POST['update'])) {
-			$oldtitle = mysqli_real_escape_string($db, $_POST['oldtitle']);
-			$newtitle = mysqli_real_escape_string($db, $_POST['newtitle']);
+		if (isset($_POST['editbook'])) {
+			$oldauthor = mysqli_real_escape_string($con, $_POST['author']);
+			$newauthor = mysqli_real_escape_string($con, $_POST['new']);
+			$id = mysqli_real_escape_string($con, $_POST['id']);
 	
-			if (empty($oldtitle)) { array_push($errors, "Oldtitle required!"); }
+			if (empty($id)) { array_push($errors, "ID required"); }
+	
+			if (empty($oldauthor)) { array_push($errors, "Old Author required!"); }
 			
-			if (empty($newtitle)) { array_push($errors, "Newtitle required!"); }
+			if (empty($newauthor)) { array_push($errors, "Author required!"); }
 			
 	
 			if (count($errors) == 0) {
-				$query = "UPDATE tablebooks SET title='$newtitle' WHERE title='$oldtitle'";
+				$query = "UPDATE tablebooks SET title='$newauthor' WHERE id='$id'";
 				mysqli_query($con, $query);
 	
 				header('location: allbooks.php');
@@ -140,14 +143,14 @@
 		}
 
 
-		if (isset($_POST['delete'])) {
-			$title = mysqli_real_escape_string($db, $_POST['title']);
+		if (isset($_POST['deletebook'])) {
+			$id = mysqli_real_escape_string($con, $_POST['id']);
 	
-			if (empty($title)) { array_push($errors, "Title required"); }
+			if (empty($id)) { array_push($errors, "ID required"); }
 		
 	
 			if (count($errors) == 0) {
-				$query = "DELETE FROM tablebooks WHERE title='$title'";
+				$query = "DELETE FROM tablebooks WHERE id='$id'";
 				mysqli_query($con, $query);
 	
 				header('location: allbooks.php');

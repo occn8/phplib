@@ -1,3 +1,5 @@
+<?php include('server.php') ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -46,14 +48,15 @@
  <main>
     <section class="padd">
     <p>Kabojja International School is a private co-educational school offering a British 
-                            curriculum IGCSE (International General Certificate of Secondary Education) and GCE (General Certificate of Education). 
-                            It is both a Day and Barding School.</p><br><br>
+    curriculum IGCSE (International General Certificate of Secondary Education) and GCE (General Certificate of Education). 
+    It is both a Day and Barding School.</p><br><br>
 <center>
                 <div class="">
                 <h1><b>Delete Book</b></h1>
                 <form action="deletebook.php" method="post">
+                <?php include('errors.php'); ?>
                     <label for="" class="white">Enter Book Id:</label>
-                    <input type="text" name="pass" class="mb-3"><br>
+                    <input type="text" name="id" class="mb-3"><br>
                     <button type="submit" class="btn btn-warning col-md-4 yellow" name="deletebook">Delete Book</button>
                 </form><br>
             </div><br>

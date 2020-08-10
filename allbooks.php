@@ -63,11 +63,12 @@
                 <div class="card mb-4 shadow-sm" style="border-radius: 10px;">
                     <img src="images/open-book2.jpg" class="d-block w-100" alt="...">
                     <div class="card-body">
-                        <p class="card-text"><b>Title:</b> <?php echo $book['title']; ?></p>
-                        <p class="card-text"><b>Author:</b> <?php echo $book['author']; ?></p>
+                        <p class="card-text"><b>Title:</b> <?php echo $book['title']; ?><br>
+                        <b>ID: </b><?php echo $book['id']; ?><br>
+                        <b>Author:</b> <?php echo $book['author']; ?></p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                            <a href="details.php"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                            <a href="details.php"><button type="button" class="btn btn-sm btn-outline-secondary">Read</button></a>
                             <a href="update.php"> <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button></a>
                             </div>
                             <small class="text-muted">Edition:<?php echo $book['edition']; ?></small>
