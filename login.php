@@ -21,8 +21,8 @@
   <form class="form-signin" method="post" action="login.php">
     <?php include('errors.php'); ?>
     <center>
-      <img class="mb-4" src="images/books-1.jpg" alt="" width="72" height="72">
-      <h1 class="h3 mb-3 font-weight-normal">sign in</h1>
+      <img class="mb-4" src="favicon.ico" alt=""  height="100">
+      <h1 class="h3 mb-3 font-weight-normal" style="color:red;">Sign In</h1>
     </center>
     
     <h1 class="h3 mb-3 font-weight-normal">Kabooja Boys School</h1>

@@ -44,7 +44,7 @@
     </header>
 
     <main>
-<section style="padding:50px;">
+<section class="padd">
 <h2>Background:</h2>
 <p>Kabojja International School is a private co-educational school offering a British 
                             curriculum IGCSE (International General Certificate of Secondary Education) and GCE (General Certificate of Education). 

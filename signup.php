@@ -19,7 +19,7 @@
 
     <form method="post" action="signup.php" class="form-signin bg-white">
         <center>
-            <h3 class="mb-5">Register</h3>
+            <h3 class="mb-5" style="color:red;">Register</h3>
         </center>
             <?php include('errors.php'); ?>
             <div class="">
@@ -49,12 +49,13 @@
                 <center>
                     <div class="form-group row">
                         <div class="col-lg-12">
-                            <input type="submit" class="btn btn-primary btn-lg" name="register" value="Register">
+                            <input type="submit" class="btn btn-warning btn-block yellow" name="register" value="Register">
                         </div>
                     </div>
+                    <small>Already a User?</small> <a href="login.php" style="color:red;">Log In</a>
                 </center>
 
-                <small>Already a User?</small> <a href="login.php" style="color:red;">Log In</a>
+                
 
             </div>
     </form>

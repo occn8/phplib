@@ -77,7 +77,7 @@
             </div>
         </section>
 
-        <div class="album py-5 bg-light">
+        <div class="album py-5 " style="background-color:beige;">
             <div class="container">
 
                 <div class="row">
@@ -88,10 +88,7 @@
                                 <p class="card-text"><b>Title:</b> This title text</p>
                                 <p class="card-text"><b>Author:</b> Author</p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
+                                  
                                     <small class="text-muted">9 mins</small>
                                 </div>
                             </div>
@@ -104,10 +101,7 @@
                                 <p class="card-text"><b>Title:</b> This title text</p>
                                 <p class="card-text"><b>Author:</b> Author</p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
+                                  
                                     <small class="text-muted">9 mins</small>
                                 </div>
                             </div>
@@ -120,10 +114,7 @@
                                 <p class="card-text"><b>Title:</b> This title text</p>
                                 <p class="card-text"><b>Author:</b> Author</p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
+                                    
                                     <small class="text-muted">9 mins</small>
                                 </div>
                             </div>
@@ -137,10 +128,7 @@
                                 <p class="card-text"><b>Title:</b> This title text</p>
                                 <p class="card-text"><b>Author:</b> Author</p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
+                                   
                                     <small class="text-muted">9 mins</small>
                                 </div>
                             </div>
@@ -153,10 +141,7 @@
                                 <p class="card-text"><b>Title:</b> This title text</p>
                                 <p class="card-text"><b>Author:</b> Author</p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
+                                 
                                     <small class="text-muted">9 mins</small>
                                 </div>
                             </div>
@@ -169,10 +154,7 @@
                                 <p class="card-text"><b>Title:</b> This title text</p>
                                 <p class="card-text"><b>Author:</b> Author</p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
+                                   
                                     <small class="text-muted">9 mins</small>
                                 </div>
                             </div>
@@ -186,10 +168,7 @@
                                 <p class="card-text"><b>Title:</b> This title text</p>
                                 <p class="card-text"><b>Author:</b> Author</p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
+                                  
                                     <small class="text-muted">9 mins</small>
                                 </div>
                             </div>
@@ -202,10 +181,7 @@
                                 <p class="card-text"><b>Title:</b> This title text</p>
                                 <p class="card-text"><b>Author:</b> Author</p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
+                                   
                                     <small class="text-muted">9 mins</small>
                                 </div>
                             </div>
@@ -218,10 +194,7 @@
                                 <p class="card-text"><b>Title:</b> This title text</p>
                                 <p class="card-text"><b>Author:</b> Author</p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
+                                 
                                     <small class="text-muted">9 mins</small>
                                 </div>
                             </div>
