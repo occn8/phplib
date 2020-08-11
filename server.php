@@ -66,6 +66,7 @@
 
 			$_SESSION['username'] = $username;
 			$_SESSION['success'] = "Welcome";
+			setcookie('user', $username, time() + (86400 * 1), "/");
 			header('location: index.php');
 		}
 
@@ -91,6 +92,7 @@
 			if (mysqli_num_rows($results) == 1) {
 				$_SESSION['username'] = $username;
 				$_SESSION['success'] = "You are logged in";
+				setcookie('user', $username, time() + (86400 * 1), "/");
 				header('location: index.php');
 			}else {
 				array_push($errors, "Incorrect combination");
