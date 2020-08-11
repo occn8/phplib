@@ -31,6 +31,17 @@
 		)";
 		mysqli_query($con, $tbbooks);
 
+	$ins = "INSERT INTO `tablebooks` (`id`, `title`, `author`, `edition`, `adddate`) VALUES
+	(1, 'Wrong key then', 'Debuzzy skar', 1, '2020-08-11'),
+	(2, 'Guns akimbo', 'collino antony', 2, '2020-08-11'),
+	(3, 'Bob Marley', 'Ganja planter q', 1, '2020-08-11'),
+	(4, 'Steven Mohock', 'Antony grey', 2, '2020-08-11'),
+	(5, 'Stroy of that guy', 'Steven Mohock', 1, '2020-08-11'),
+	(6, 'Blackkan Man Turn', 'Picasco italio', 2, '2020-08-11'),
+	(7, 'White Orange me', 'Donald hashhole', 1, '2020-08-11'),
+	(8, 'Blackkan Man Turn', 'collino antony', 2, '2020-08-11'),
+	(9, 'The Avenger marvel', 'roy cater troy', 3, '2020-08-11')";
+	mysqli_query($con, $ins);
 
 
 	if (isset($_POST['register'])) {
@@ -134,7 +145,7 @@
 			
 	
 			if (count($errors) == 0) {
-				$query = "UPDATE tablebooks SET title='$newauthor' WHERE id='$id'";
+				$query = "UPDATE tablebooks SET author='$newauthor' WHERE id='$id'";
 				mysqli_query($con, $query);
 	
 				header('location: allbooks.php');

@@ -88,8 +88,8 @@
                                 <p class="card-text"><b>Title:</b> This title text</p>
                                 <p class="card-text"><b>Author:</b> Author</p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                  
-                                    <small class="text-muted">9 mins</small>
+                                <a href="details.php"><button type="button" class="btn btn-sm btn-outline-secondary">Read</button></a>
+                                    <small class="text-muted">Edition: 2</small>
                                 </div>
                             </div>
                         </div>
@@ -98,11 +98,11 @@
                         <div class="card mb-4 shadow-sm">
                             <img src="images/open-book1.jpg" class="d-block w-100" alt="...">
                             <div class="card-body">
-                                <p class="card-text"><b>Title:</b> This title text</p>
-                                <p class="card-text"><b>Author:</b> Author</p>
+                                <p class="card-text"><b>Title:</b> Banker WWII</p>
+                                <p class="card-text"><b>Author:</b> war veteran</p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                  
-                                    <small class="text-muted">9 mins</small>
+                                <a href="details.php"><button type="button" class="btn btn-sm btn-outline-secondary">Read</button></a>
+                                    <small class="text-muted">Edition: 1</small>
                                 </div>
                             </div>
                         </div>
@@ -111,11 +111,11 @@
                         <div class="card mb-4 shadow-sm">
                             <img src="images/open-book2.jpg" class="d-block w-100" alt="...">
                             <div class="card-body">
-                                <p class="card-text"><b>Title:</b> This title text</p>
-                                <p class="card-text"><b>Author:</b> Author</p>
+                                <p class="card-text"><b>Title:</b> Bagamoyo East</p>
+                                <p class="card-text"><b>Author:</b> Obote writes</p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                    
-                                    <small class="text-muted">9 mins</small>
+                                <a href="details.php"><button type="button" class="btn btn-sm btn-outline-secondary">Read</button></a>
+                                    <small class="text-muted">Edition: 1</small>
                                 </div>
                             </div>
                         </div>
@@ -125,11 +125,11 @@
                         <div class="card mb-4 shadow-sm">
                             <img src="images/open-book1.jpg" class="d-block w-100" alt="...">
                             <div class="card-body">
-                                <p class="card-text"><b>Title:</b> This title text</p>
-                                <p class="card-text"><b>Author:</b> Author</p>
+                                <p class="card-text"><b>Title:</b> Uganda Politics</p>
+                                <p class="card-text"><b>Author:</b> Sevo besigye</p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                   
-                                    <small class="text-muted">9 mins</small>
+                                <a href="details.php"><button type="button" class="btn btn-sm btn-outline-secondary">Read</button></a>
+                                    <small class="text-muted">Edition: 4</small>
                                 </div>
                             </div>
                         </div>
@@ -138,11 +138,11 @@
                         <div class="card mb-4 shadow-sm">
                             <img src="images/open-book2.jpg" class="d-block w-100" alt="...">
                             <div class="card-body">
-                                <p class="card-text"><b>Title:</b> This title text</p>
-                                <p class="card-text"><b>Author:</b> Author</p>
+                                <p class="card-text"><b>Title:</b> Perception Rick</p>
+                                <p class="card-text"><b>Author:</b> Clinton fool</p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                 
-                                    <small class="text-muted">9 mins</small>
+                                <a href="details.php"><button type="button" class="btn btn-sm btn-outline-secondary">Read</button></a>
+                                    <small class="text-muted">Edition: 2</small>
                                 </div>
                             </div>
                         </div>
@@ -151,11 +151,11 @@
                         <div class="card mb-4 shadow-sm">
                             <img src="images/open-book1.jpg" class="d-block w-100" alt="...">
                             <div class="card-body">
-                                <p class="card-text"><b>Title:</b> This title text</p>
-                                <p class="card-text"><b>Author:</b> Author</p>
+                                <p class="card-text"><b>Title:</b> Goose creep</p>
+                                <p class="card-text"><b>Author:</b> Mporty mot</p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                   
-                                    <small class="text-muted">9 mins</small>
+                                <a href="details.php"><button type="button" class="btn btn-sm btn-outline-secondary">Read</button></a>
+                                    <small class="text-muted">Edition: 2</small>
                                 </div>
                             </div>
                         </div>
@@ -165,11 +165,11 @@
                         <div class="card mb-4 shadow-sm">
                             <img src="images/open-book2.jpg" class="d-block w-100" alt="...">
                             <div class="card-body">
-                                <p class="card-text"><b>Title:</b> This title text</p>
-                                <p class="card-text"><b>Author:</b> Author</p>
+                                <p class="card-text"><b>Title:</b> Dancehall 90ty musical</p>
+                                <p class="card-text"><b>Author:</b> Sheebah quin</p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                  
-                                    <small class="text-muted">9 mins</small>
+                                <a href="details.php"><button type="button" class="btn btn-sm btn-outline-secondary">Read</button></a>
+                                    <small class="text-muted">Edition: 1</small>
                                 </div>
                             </div>
                         </div>
@@ -178,11 +178,11 @@
                         <div class="card mb-4 shadow-sm">
                             <img src="images/open-book1.jpg" class="d-block w-100" alt="...">
                             <div class="card-body">
-                                <p class="card-text"><b>Title:</b> This title text</p>
-                                <p class="card-text"><b>Author:</b> Author</p>
+                                <p class="card-text"><b>Title:</b> Evnvironment keeper</p>
+                                <p class="card-text"><b>Author:</b> Podolski wimp</p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                   
-                                    <small class="text-muted">9 mins</small>
+                                <a href="details.php"><button type="button" class="btn btn-sm btn-outline-secondary">Read</button></a>
+                                    <small class="text-muted">Edition: 3</small>
                                 </div>
                             </div>
                         </div>
@@ -191,11 +191,11 @@
                         <div class="card mb-4 shadow-sm">
                             <img src="images/open-book2.jpg" class="d-block w-100" alt="...">
                             <div class="card-body">
-                                <p class="card-text"><b>Title:</b> This title text</p>
-                                <p class="card-text"><b>Author:</b> Author</p>
+                                <p class="card-text"><b>Title:</b> States of matter</p>
+                                <p class="card-text"><b>Author:</b> Obama jb clamp</p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                 
-                                    <small class="text-muted">9 mins</small>
+                                <a href="details.php"><button type="button" class="btn btn-sm btn-outline-secondary">Read</button></a>
+                                    <small class="text-muted">Edition: 2</small>
                                 </div>
                             </div>
                         </div>
