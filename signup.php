@@ -21,6 +21,7 @@
         <center>
             <h3 class="mb-5" style="color:red;">Register</h3>
         </center>
+        <h1 class="h3 mb-3 font-weight-normal">Kabooja Boys School</h1>
             <?php include('errors.php'); ?>
             <div class="">
                 

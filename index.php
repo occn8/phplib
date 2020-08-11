@@ -35,7 +35,7 @@
     <header class="main-header">
         <nav class="navbar navbar-expand-xl navbar-light" id="site-header">
             <div class="navbar-header">
-                <a href="" class="navbar-brand">
+                <a href="#" class="navbar-brand">
                     <img src="favicon.ico" height="50px" alt="">
                     <span class="first-letter">Kabooja Library</span>
                 </a>
