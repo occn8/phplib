@@ -55,7 +55,7 @@
     <p>Kabojja International School is a private co-educational school offering a British 
                             curriculum IGCSE (International General Certificate of Secondary Education) and GCE (General Certificate of Education). 
                             It is both a Day and Barding School.</p>
-            <?php include('server.php') ?>
+            <?php include('../config/server.php') ?>
             <div class="row">
             <?php foreach($result as $book):?>
             
