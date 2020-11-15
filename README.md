@@ -1,10 +1,8 @@
 
-# __PHP Project__
-___
+# __PHP Project__ 
 
 ## Library Web Application
 <!-- <img src="./bin/favicon.ico" width="250px" /> -->
-___
 
 ### A responsive Library App
 > Based off the Random websites.
